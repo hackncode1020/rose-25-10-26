@@ -4,7 +4,7 @@ A 3D rose that blooms petal by petal, built from **one parametric equation** wit
 
 **▶ Live demo: https://rose-hackncode.sites.tab.bot/**
 
-Personalised link: https://rose-hackncode.sites.tab.bot/?name=DHRUVI
+Personalised link: https://rose-hackncode.sites.tab.bot/?name=your%20love
 
 ![A Rose That Blooms For You](screenshot.jpg)
 
@@ -19,7 +19,7 @@ Personalised link: https://rose-hackncode.sites.tab.bot/?name=DHRUVI
 ## Make it yours
 | Link | Shows |
 |---|---|
-| `?name=DHRUVI` | "For Dhruvi 🌹 / You are my favourite person ❤️" |
+| `?name=your%20love` | "For your love 🌹 / You are my favourite person ❤️" |
 | `?msg=Will%20you%20be%20mine%3F` | your own message |
 | `?name=RIYA&msg=Happy%20Birthday` | both |
 
