@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,viewport-fit=cover">
+<title>A Rose That Blooms For You 🌹 · @hack.n.code</title>
+<meta name="description" content="Tap the bud and watch a 3D rose bloom for your person. Made by @hack.n.code">
+<meta property="og:title" content="A rose that blooms for you 🌹">
+<meta property="og:description" content="Tap the bud and watch it bloom. Made by @hack.n.code">
+<meta name="theme-color" content="#12020a">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script type="importmap">
+{ "imports": {
+  "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.min.js",
+  "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+} }
+</script>
+</head>
+<body>
+<canvas id="c"></canvas>
+<div id="vignette"></div>
+<header id="top">
+  <div class="title">A rose that <em>blooms</em> for you</div>
+</header>
+<button id="snd" aria-label="Sound">🔇</button>
+<div id="hint">Tap the bud 🌹</div>
+<div id="msg"><div id="m1"></div><div id="m2"></div></div>
+<div id="bar">
+  <input id="name" maxlength="14" placeholder="Their name…" autocomplete="off" spellcheck="false">
+  <button id="share">Send this to your person 🌹</button>
+</div>
+<div id="credit">Made by <b>@hack.n.code</b></div>
+<div id="toast"></div>
+<script type="module" src="rose.js"></script>
+</body>
+</html>
