@@ -187,7 +187,7 @@ const NAME = (Q.get('name') || '').trim().slice(0, 14).toUpperCase();
 const MSG = (Q.get('msg') || '').trim().slice(0, 60);
 let line1 = '', line2 = '';
 function setLines(name) {
-  const nice = name ? name.charAt(0) + name.slice(1).toLowerCase() : '';
+  const nice = name ? (/^(YOUR|MY)( |$)/.test(name) ? name.toLowerCase() : name.charAt(0) + name.slice(1).toLowerCase()) : '';
   line1 = name ? `For ${nice} 🌹` : '';
   line2 = MSG || (name ? 'You are my favourite person ❤️' : 'You are my favourite person 🌹');
   $('m2').style.fontSize = name ? '' : 'clamp(34px,10vw,60px)';
